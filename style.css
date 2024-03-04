@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(226, 195, 115);
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    height: 50vw;
+    width: 50vw;
+    background: url(./img/clock.png) no-repeat;
+    background-size: 100%;
+}
+
+.hour-hand,
+.minute-hand,
+.second-hand {
+    position: absolute;
+    transform-origin: bottom;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.hour-hand {
+    height: 25%;
+    width: 2%;
+    top: 25%;
+    left: 48.85%;
+}
+
+.minute-hand {
+    height: 30%;
+    width: 1%;
+    top: 20%;
+    left: 49.35%;
+}
+
+.second-hand {
+    height: 35%;
+    width: .5%;
+    top: 15%;
+    left: 49.55%;
+}
